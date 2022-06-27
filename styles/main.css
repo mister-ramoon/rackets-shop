@@ -1,0 +1,55 @@
+:root {
+    --white: #fff;
+    --green: #cbe346;
+    --grey-soft-background: #f3f4f8;
+    --grey-background:#ebebeb;
+    --grey-text: #787878;
+    --grey-soft-text: #d8d8d8;
+    --blue-text: #282e47;
+    --blue-hard-text: #1e2335;
+    --blue-soft-text: #2b3049
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src:
+        url("../assets/fonts/HelveticaNeue.woff2") format("woff2"),
+        url("../assets/fonts/HelveticaNeue.woff") format("woff"),
+        url("../assets/fonts/HelveticaNeue.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src:
+        url("../assets/fonts/HelveticaNeueMedium.woff2") format("woff2"),
+        url("../assets/fonts/HelveticaNeueMedium.woff") format("woff"),
+        url("../assets/fonts/HelveticaNeueMedium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src:
+        url("../assets/fonts/HelveticaNeueBold.woff2") format("woff2"),
+        url("../assets/fonts/HelveticaNeueBold.woff") format("woff"),
+        url("../assets/fonts/HelveticaNeueBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "HelveticaNeue", sans-serif;
+}
