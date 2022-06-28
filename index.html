@@ -5,60 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rackets Shop - Las mejores raquetas para jugar Tennis</title>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/logo.svg">
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/mobile.css" media="(min-widht: 768px)">
-    <link rel="stylesheet" href="./styles/tablet.css" media="(min-widht: 1024px)">
-    <link rel="stylesheet" href="./styles/desktop.css" media="(min-widht: 2560px)">
+    <link rel="stylesheet" href="./styles/mobile.css" >
+    <link rel="stylesheet" href="./styles/tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 1024px)">
 </head>
 <body>
 
-    <header>
-        <div>
-            <img src="" alt=""/>
+    <header class="header">
+        <div class="header-logo--container">
+            <img class="header-logo" src="./assets/icons/logo.svg" alt="Logo de Rackets Shop"/>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Inicio</a>
+        <div class="header-divider"></div>
+        <nav class="header-nav-desktop">
+            <ul class="header-nav-desktop--list">
+                <li class="header-nav-desktop--item">
+                    <a class="header-nav-desktop--link" href="#">Inicio<div></div></a>
                 </li>
-                <li>
-                    <a href="#about">Acerca de nosotros</a>
+                <li class="header-nav-desktop--item">
+                    <a class="header-nav-desktop--link" href="#about">Acerca de nosotros<div></div></a>
                 </li>
-                <li>
-                    <a href="#history">Historia</a>
+                <li class="header-nav-desktop--item">
+                    <a class="header-nav-desktop--link" href="#history">Historia<div></div></a>
                 </li>
-                <li>
-                    <a href="#contact">Contacto</a>
+                <li class="header-nav-desktop--item">
+                    <a class="header-nav-desktop--link" href="#contact">Contacto<div></div></a>
                 </li>
             </ul>
         </nav>
-        <div>
-            <ul>
-                <li>
-                    <a href="#">ESP</a>
+        <nav class="header-nav-mobile">
+            <input type="checkbox" id="header-nav-mobile--drop">
+            <label for="header-nav-mobile--drop">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="header-nav-mobile--menu">
+                <ul class="header-nav-mobile--list">
+                    <li class="header-nav-mobile--item">
+                        <a class="header-nav-mobile--link" href="#">Inicio</a>
+                    </li>
+                    <li class="header-nav-mobile--item">
+                        <a class="header-nav-mobile--link" href="#about">Acerca de nosotros</a>
+                    </li>
+                    <li class="header-nav-mobile--item">
+                        <a class="header-nav-mobile--link" href="#history">Historia</a>
+                    </li>
+                    <li class="header-nav-mobile--item">
+                        <a class="header-nav-mobile--link" href="#contact">Contacto</a>
+                    </li>
+                    <li class="header-nav-mobile--item header-languages-mobile--item">
+                        <a class="header-nav-mobile--link" href="#">ES</a>
+                        <a class="header-nav-mobile--link" href="#">EN</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-languages">
+            <ul class="header-languages--list">
+                <li class="header-languages--item">
+                    <a class="header-languages--link" href="#">ESP</a>
                 </li>
-                <li>
-                    <a href="#">ING</a>
+                <li class="header-languages--item">
+                    <a class="header-languages--link" href="#">EN</a>
                 </li>
             </ul>
         </div>
     </header>
 
-    <main id="about">
-        <div>
-            <h1>Las mejores raquetas para<br>jugar <span>Tennis</span></h1>
-            <a href="#">Acerca de nosotros<span></span></a>
+    <main class="hero" id="about">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Las mejores raquetas para<br>jugar <span>Tennis</span></h1>
+                <a class="hero-link" href="#">Acerca de nosotros<span></span></a>
+            </div>
         </div>
     </main>
 
-    <section id="history">
-        <div>
-            <h3>Tennis</h3>
-            <h2>Raquetas.Accesorios.<br>Pelotas.</h2>
-        </div>
-        <div>
-            <p>Conoce nuestras raquetas y aprende a jugar<br>Tennis cómo un profesional.</p>
-            <a href="#">Historia<span></span></a>
+    <section id="history" class="accessories">
+        <div class="accessories-container">
+            <div class="accessories-content accessories-content--titles" >
+                <h3 class="accessories-text">Tennis</h3>
+                <h2 class="accessories-title">Raquetas.Accesorios.<br>Pelotas.</h2>
+            </div>
+            <div class="accessories-content accessories-content--links">
+                <p class="accessories-link--title">Conoce nuestras raquetas y aprende a jugar<br>Tennis como un profesional.</p>
+                <a class="accessories-link" href="#">Historia<span></span></a>
+            </div>
         </div>
     </section>
 
@@ -99,9 +133,7 @@
         </div>
     </section>
 
-    <section>
-        <div></div>
-    </section>
+    <section class="athlete"></section>
 
     <footer id="contact">
         <div>
@@ -148,6 +180,8 @@
             </ul>
         </div>
     </footer>
+
+    <script src="./index.js"></script>
 
 </body>
 </html>

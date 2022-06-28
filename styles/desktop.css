@@ -1,0 +1,140 @@
+/* Header */
+.header {
+    padding: 2rem 3rem;
+}
+.header-logo {
+    width: 37px;
+}
+.header-nav-desktop {
+    display: block;
+    width: 87%;
+}
+.header-languages {
+    display: block;
+}
+.header-nav-mobile {
+    display: none;
+}
+.header-nav-desktop--list {
+    display: flex;
+    list-style: none;
+}
+.header-nav-desktop--item {
+    margin-left: 6rem;
+}
+.header-nav-desktop--item div {
+    width: 0%;
+    height: 1rem;
+    border-bottom: 2px solid transparent;
+    transition: all .3s ease-in-out;
+}
+.header-nav-desktop--link {
+    color: var(--white);
+    letter-spacing: 1.5px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+.header-nav-desktop--link:hover {
+    font-weight: bold;
+    transition: all .1s ease-in-out;
+}
+.header-nav-desktop--link:hover div {
+    width: 50%;
+    border-color: var(--white);
+    transition: all .3s ease-in-out;
+}
+.header-languages--list {
+    display: flex;
+    list-style: none;
+}
+.header-languages--item {
+    margin-left: 2rem;
+}
+.header-languages--link {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.6rem;
+    letter-spacing: 1.5px;
+    transition: all .1s ease-in-out;
+}
+.header-languages--link:hover {
+    font-weight: bold;
+    transition: all .1s ease-in-out;
+}
+
+/* Hero */
+.hero-container {
+    width: 100%;
+    margin-left: 7.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid var(--white);
+}
+.hero-content {
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 4rem;
+}
+.hero-title {
+    font-size: 5.7rem;
+}
+.hero-link {
+    padding-right: 8rem;
+    transition: all .3s ease-in-out;
+}
+.hero-link:hover {
+    border-color: var(--green);
+    color: var(--green);
+    transition: all .3s ease-in-out;
+}
+
+
+/* Accessories  */
+.accessories {
+    padding: 8rem 3rem;
+}
+.accessories-container {
+    width: 100%;
+    max-width: 800px;
+}
+.accessories-content {
+    display: flex;
+}
+.accessories-content--links {
+    justify-content: space-between;
+}
+.accessories-content--titles {
+    margin-bottom: 2.5rem;
+}
+.accessories-text {
+    margin-top: 1rem;
+    margin-right: 3rem;
+    margin-left: -9.5rem;
+    font-size: 1.5rem;
+}
+.accessories-title {
+    font-size: 5rem;
+}
+.accessories-link--title {
+    font-size: 1.8rem;
+}
+.accessories-link {
+    transition: all .2s ease-in-out;
+}
+.accessories-link:hover {
+    color: var(--green);
+    transition: all .2s ease-in-out;
+}
+.accessories-link span {
+    margin-top: -1rem;
+    margin-left: 11rem;
+}
+
+
+/* Athlete */
+.athlete {
+    background-position: center;
+}

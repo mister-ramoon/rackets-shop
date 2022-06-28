@@ -1,0 +1,30 @@
+/* Header */
+.header {
+    padding: 0 2.5rem;
+}
+#header-nav-mobile--drop + label span {
+    background-color: var(--white);
+}
+
+
+/* Hero */
+.hero-title {
+    font-size: 4.5rem;
+}
+.hero-link {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+/* Accessories */
+.accessories-title {
+    font-size: 3.5rem;
+}
+.accessories-text {
+    font-size: 1.8rem;
+}
+.accessories-link--title {
+    font-size: 1.6rem;
+}
