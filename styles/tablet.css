@@ -28,3 +28,25 @@
 .accessories-link--title {
     font-size: 1.6rem;
 }
+
+
+/* Footer */
+.footer {
+    padding: 5rem 4rem;
+}
+.footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-menu--list {
+    display: flex;
+}
+.footer-menu--item {
+    margin-right: 3.5rem;
+}
+.footer-social--item {
+    margin: 1rem .5rem;
+}
+.footer-logo {
+    width: 5rem;
+}

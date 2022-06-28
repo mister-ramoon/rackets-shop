@@ -190,6 +190,7 @@
     color: var(--blue-hard-text);
     line-height: 1.2em;
     margin-bottom: 1rem;
+    font-weight: 500;
 }
 .accessories-link--title {
     font-size: 1.3rem;
@@ -228,4 +229,37 @@
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+/* Footer */
+.footer {
+    background-color: var(--green);
+    padding: 3rem;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.footer-menu--list {
+    list-style: none;
+    margin-top: 1rem;
+}
+.footer-menu--item {
+    margin: 1rem;
+}
+.footer-menu--link {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--blue-soft-text);
+}
+.footer-social--list {
+    list-style: none;
+    display: flex;
+    margin-top: 1rem;
+}
+.footer-social--item {
+    margin: 1rem;
 }

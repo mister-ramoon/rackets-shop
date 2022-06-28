@@ -105,6 +105,7 @@
 }
 .accessories-content--links {
     justify-content: space-between;
+    align-items: center;
 }
 .accessories-content--titles {
     margin-bottom: 2.5rem;
@@ -137,4 +138,15 @@
 /* Athlete */
 .athlete {
     background-position: center;
+}
+
+
+/* Footer */
+.footer-menu--link {
+    font-size: 1.6rem;
+    transition: all .2s ease-in-out;
+}
+.footer-menu--link:hover {
+    font-weight: bold;
+    transition: all .2s ease-in-out;
 }
