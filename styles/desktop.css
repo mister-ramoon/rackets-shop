@@ -135,6 +135,15 @@
 }
 
 
+/* Rackets */
+.rackets {
+    display: flex;
+}
+.rackets-slider {
+    width: 70%;
+}
+
+
 /* Athlete */
 .athlete {
     background-position: center;

@@ -29,6 +29,13 @@
     font-size: 1.6rem;
 }
 
+/* Rackets */
+.rackets-slider--title {
+    font-size: 5rem;
+}
+.rackets-slider--text {
+    font-size: 1.8rem;
+}
 
 /* Footer */
 .footer {

@@ -222,6 +222,112 @@
 }
 
 
+/* Rackets */
+.rackets-slider {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../assets/imgs/ball.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem;
+    padding-left: 20%;
+}
+.rackets-slider--title {
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+.rackets-slider--title span {
+    font-weight: bold;
+}
+.rackets-slider--text {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--grey-soft-text);
+    line-height: 1.5em;
+}
+.rackets-slider--dots {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.rackets-dots {
+    width: 8px;
+    height: 8px;
+    background-color: var(--grey-background);
+    margin: 1rem .5rem;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+.rackets-dots:hover, .rackets-dots:active {
+    background-color: var(--green);
+    transition: all 0.2s ease-in-out;
+}
+.rackets-arrows--link {
+    padding: 1.5rem 1.2rem 1.1rem 1.2rem;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    margin-right: 2rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.rackets-arrows--link:hover {
+    background-color: var(--green);
+    border-color: var(--green);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
+}
+.rackets-arrows--link .left {
+    transform: rotate(180deg);
+}
+.rackets-arrows--img {
+    width: 1rem;
+}
+.rackets-products {
+    margin-bottom: 5rem;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+}
+.rackets-product {
+    margin: 1rem;
+    transform: translate(0px, 0px);
+    scroll-snap-align: center;
+}
+.rackets-product--item {
+    padding: .6rem 1rem;
+    background-color: var(--green);
+    border-radius: 100%;
+    color: var(--white);
+    font-size: 1.7rem;
+    position: relative;
+    margin: 1rem;
+    top: 3.5rem;
+}
+.rackets-product--img {
+    width: 280px;
+}
+.rackets-products::-webkit-scrollbar-track {
+    background-color: var(--blue-soft-text);
+}
+.rackets-products::-webkit-scrollbar-thumb {
+    background-color: var(--green);
+    border-radius: 1rem;
+    width: 1rem;
+}
+.rackets-products::-webkit-scrollbar {
+    height: 1rem;
+    width: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* Athlete */
 .athlete {
     height: 580px;
@@ -254,6 +360,7 @@
     font-weight: 500;
     text-decoration: none;
     color: var(--blue-soft-text);
+    letter-spacing: 1.1px;
 }
 .footer-social--list {
     list-style: none;
